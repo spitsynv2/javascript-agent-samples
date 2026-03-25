@@ -6,7 +6,7 @@ describe('Basic reporting test', () => {
     performGoogleSearch(searchValue);
 
     console.log(`Verify first search result contains search value`);
-    cy.xpath("//*[@id='search']//a").should('contain.text', searchValue);
+    cy.get('#search a').should('contain.text', searchValue);
   });
 
   it('Google search should be failed', () => {
@@ -14,7 +14,7 @@ describe('Basic reporting test', () => {
     performGoogleSearch(searchValue);
 
     console.log(`Verify first search result equals to search value`);
-    cy.xpath("//*[@id='search']//a").should('have.text', searchValue);
+    cy.get('#search a').should('have.text', searchValue);
   });
 
     it('Google search should be passed2', () => {
@@ -22,7 +22,7 @@ describe('Basic reporting test', () => {
     performGoogleSearch(searchValue);
 
     console.log(`Verify first search result contains search value`);
-    cy.xpath("//*[@id='search']//a").should('contain.text', searchValue);
+    cy.get('#search a').should('contain.text', searchValue);
   });
 
     it('Google search should be passed3', () => {
@@ -30,7 +30,7 @@ describe('Basic reporting test', () => {
     performGoogleSearch(searchValue);
 
     console.log(`Verify first search result contains search value`);
-    cy.xpath("//*[@id='search']//a").should('contain.text', searchValue);
+    cy.get('#search a').should('contain.text', searchValue);
   });
 
     it('Google search should be passed4', () => {
@@ -38,7 +38,7 @@ describe('Basic reporting test', () => {
     performGoogleSearch(searchValue);
 
     console.log(`Verify first search result contains search value`);
-    cy.xpath("//*[@id='search']//a").should('contain.text', searchValue);
+    cy.get('#search a').should('contain.text', searchValue);
   });
   
     it('Google search should be passed5', () => {
@@ -46,14 +46,14 @@ describe('Basic reporting test', () => {
     performGoogleSearch(searchValue);
 
     console.log(`Verify first search result contains search value`);
-    cy.xpath("//*[@id='search']//a").should('contain.text', searchValue);
+    cy.get('#search a').should('contain.text', searchValue);
   });
 
   function performGoogleSearch(searchValue) {
     cy.visit(url).contains('Google');
 
     console.log(`Performing search with value Zebrunner`);
-    cy.xpath("//*[@name='q']").click().type(searchValue).type('{enter}');
+    cy.get('[name="q"]').click().type(searchValue).type('{enter}');
   }
 
 });
