@@ -1,0 +1,573 @@
+12:34:00
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+12:34:00
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+12:34:01
+npm warn deprecated glob@8.1.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+12:34:01
+npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+12:34:01
+npm warn deprecated glob@7.2.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+12:34:03
+npm warn deprecated eslint@7.18.0: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+12:34:16
+149 packages are looking for funding
+12:34:16
+Run `npm audit` for details.
+12:34:16
+Some issues need review, and may require choosing
+12:34:16
+run `npm fund` for details
+12:34:16
+To address issues that do not require attention, run:
+12:34:16
+12 vulnerabilities (1 low, 4 moderate, 5 high, 2 critical)
+12:34:16
+a different dependency.
+12:34:16
+npm audit fix
+12:34:16
+added 536 packages, and audited 537 packages in 18s
+12:34:17
+[11:34:17] Verifying Cypress can run /tmp/cypress/Cypress/15.13.0/Cypress [started]
+12:34:21
+[11:34:21] Verifying Cypress can run /tmp/cypress/Cypress/15.13.0/Cypress [COMPLETED]
+12:34:26
+1. Replace Cypress.env() calls with cy.env() (for sensitive values) or Cypress.expose() (for public configuration)
+12:34:26
+Learn more: https://on.cypress.io/cypress-env-migration
+12:34:26
+(Run Starting)
+12:34:26
+2. Set allowCypressEnv: false in your Cypress configuration to disable Cypress.env()
+12:34:26
+Warning: The allowCypressEnv configuration option is enabled. This allows any browser code to read values from Cypress.env(). This is insecure and will be removed in a future major version.
+12:34:26
+│ Cypress: 15.13.0 │
+12:34:26
+│ Browser: Chrome 146 │
+12:34:26
+====================================================================================================
+12:34:26
+┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+12:34:26
+│ Node Version: v24.14.0 (/usr/local/bin/node) │
+12:34:26
+│ Specs: 1 found (basic.cy.js) │
+12:34:26
+│ Searched: cypress/integration/basic.cy.js │
+12:34:26
+before:run details {
+12:34:26
+└────────────────────────────────────────────────────────────────────────────────────────────────┘
+12:34:26
+family: 'chromium',
+12:34:26
+browser: {
+12:34:26
+path: 'google-chrome',
+12:34:26
+isHeadless: false,
+12:34:26
+version: '146.0.7680.164',
+12:34:26
+},
+12:34:26
+majorVersion: '146',
+12:34:26
+name: 'chrome',
+12:34:26
+channel: 'stable',
+12:34:26
+displayName: 'Chrome',
+12:34:26
+isHeaded: true
+12:34:26
+reporter: '@zebrunner/javascript-agent-cypress',
+12:34:26
+reporterOptions: {
+12:34:26
+config: {
+12:34:26
+reportingServerHostname: 'https://<workspace>.zebrunner.com/',
+12:34:26
+reportingProjectKey: '<project_key>',
+12:34:26
+reportingServerAccessToken: '<accessToken>',
+12:34:26
+reportingRunEnvironment: 'DEMO',
+12:34:26
+},
+12:34:26
+specPattern: 'cypress/integration/**/*.cy.js',
+12:34:26
+reportingRunBuild: '2.41.2.2431-SNAPSHOT',
+12:34:26
+reportingRunDisplayName: 'Cypress Demo Launch'
+12:34:26
+setupNodeEvents: '[Function setupNodeEvents]',
+12:34:26
+supportFile: '/tmp/zebrunner/sample-cypress/cypress/support/index.js',
+12:34:27
+projectName: 'sample-cypress',
+12:34:27
+projectRoot: '/tmp/zebrunner/sample-cypress',
+12:34:27
+repoRoot: '/tmp/zebrunner',
+12:34:27
+rawJson: {
+12:34:27
+reporter: '@zebrunner/javascript-agent-cypress',
+12:34:27
+reporterOptions: [Object],
+12:34:27
+supportFile: 'cypress/support/index.js',
+12:34:27
+specPattern: 'cypress/integration/**/*.cy.js',
+12:34:27
+envFile: {},
+12:34:27
+projectName: 'sample-cypress',
+12:34:27
+e2e: [Object],
+12:34:27
+projectRoot: '/tmp/zebrunner/sample-cypress',
+12:34:27
+setupNodeEvents: '[Function setupNodeEvents]',
+12:34:27
+repoRoot: '/tmp/zebrunner'
+12:34:27
+},
+12:34:27
+morgan: false,
+12:34:27
+configFile: 'cypress.config.js',
+12:34:27
+isTextTerminal: true,
+12:34:27
+socketId: '55xm73sfw5',
+12:34:27
+report: true,
+12:34:27
+arch: 'x64',
+12:34:27
+baseUrl: null,
+12:34:27
+animationDistanceThreshold: 5,
+12:34:27
+blockHosts: null,
+12:34:27
+defaultBrowser: null,
+12:34:27
+chromeWebSecurity: true,
+12:34:27
+defaultCommandTimeout: 4000,
+12:34:27
+clientCertificates: [],
+12:34:27
+allowCypressEnv: true,
+12:34:27
+downloadsFolder: '/tmp/zebrunner/sample-cypress/cypress/downloads',
+12:34:27
+env: {
+12:34:27
+CACHE_FOLDER: '/tmp/cypress/Cypress',
+12:34:27
+REMOTE_DEBUGGING_PORT: 9222
+12:34:27
+FACTORY_DEFAULT_NODE_VERSION: '24.14.0',
+12:34:27
+expose: {},
+12:34:27
+},
+12:34:27
+experimentalInteractiveRunEvents: false,
+12:34:27
+experimentalCspAllowList: false,
+12:34:27
+experimentalRunAllSpecs: false,
+12:34:27
+execTimeout: 60000,
+12:34:27
+experimentalMemoryManagement: false,
+12:34:27
+injectDocumentDomain: false,
+12:34:27
+experimentalSingleTabRunMode: false,
+12:34:27
+experimentalSourceRewriting: false,
+12:34:27
+experimentalOriginDependencies: false,
+12:34:27
+experimentalModifyObstructiveThirdPartyCode: false,
+12:34:27
+experimentalWebKitSupport: false,
+12:34:27
+fileServerFolder: '/tmp/zebrunner/sample-cypress',
+12:34:27
+excludeSpecPattern: '*.hot-update.js',
+12:34:27
+experimentalFastVisibility: false,
+12:34:27
+fixturesFolder: '/tmp/zebrunner/sample-cypress/cypress/fixtures',
+12:34:27
+includeShadowDom: false,
+12:34:27
+justInTimeCompile: true,
+12:34:27
+keystrokeDelay: 0,
+12:34:27
+modifyObstructiveCode: true,
+12:34:27
+numTestsKeptInMemory: 0,
+12:34:27
+platform: 'linux',
+12:34:27
+pageLoadTimeout: 60000,
+12:34:27
+requestTimeout: 5000,
+12:34:27
+port: 34283,
+12:34:27
+redirectionLimit: 20,
+12:34:27
+projectId: null,
+12:34:27
+resolvedNodePath: '/usr/local/bin/node',
+12:34:27
+responseTimeout: 30000,
+12:34:27
+retries: { runMode: 0, openMode: 0 },
+12:34:27
+screenshotsFolder: '/tmp/zebrunner/sample-cypress/cypress/screenshots',
+12:34:27
+resolvedNodeVersion: '24.14.0',
+12:34:27
+taskTimeout: 60000,
+12:34:27
+screenshotOnRunFailure: true,
+12:34:27
+scrollBehavior: 'top',
+12:34:27
+slowTestThreshold: 10000,
+12:34:27
+testIsolation: true,
+12:34:27
+trashAssetsBeforeRuns: true,
+12:34:27
+userAgent: null,
+12:34:27
+viewportHeight: 660,
+12:34:27
+supportFolder: '/tmp/zebrunner/sample-cypress/cypress/support',
+12:34:27
+viewportWidth: 1000,
+12:34:27
+videoCompression: false,
+12:34:27
+videosFolder: '/tmp/zebrunner/sample-cypress/cypress/videos',
+12:34:27
+video: false,
+12:34:27
+waitForAnimations: true,
+12:34:27
+additionalIgnorePattern: [],
+12:34:27
+watchForFileChanges: false,
+12:34:27
+autoOpen: false,
+lientRoute: '/__/',
+12:34:27
+hosts: null,
+12:34:27
+isInteractive: true,
+12:34:27
+cypressBinaryRoot: '/tmp/cypress/Cypress/15.13.0/Cypress/resources/app',
+12:34:27
+version: '15.13.0',
+12:34:27
+reporterRoute: '/__cypress/reporter',
+12:34:27
+browsers: [ [Object], [Object] ],
+12:34:27
+namespace: '__cypress',
+12:34:27
+devServerPublicPathRoute: '/__cypress/src',
+12:34:27
+socketIoCookie: '__socket',
+12:34:27
+isDefaultProtocolEnabled: false,
+12:34:27
+socketIoRoute: '/__socket',
+12:34:27
+hideCommandLog: false,
+12:34:27
+cypressEnv: 'production',
+12:34:27
+hideRunnerUi: false,
+12:34:27
+arch: [Object],
+12:34:27
+animationDistanceThreshold: [Object],
+12:34:27
+resolved: {
+12:34:27
+baseUrl: [Object],
+12:34:27
+blockHosts: [Object],
+12:34:27
+chromeWebSecurity: [Object],
+12:34:27
+clientCertificates: [Object],
+12:34:27
+defaultBrowser: [Object],
+12:34:27
+env: [Object],
+12:34:27
+allowCypressEnv: [Object],
+12:34:27
+experimentalCspAllowList: [Object],
+12:34:27
+expose: {},
+12:34:27
+execTimeout: [Object],
+12:34:27
+defaultCommandTimeout: [Object],
+12:34:27
+experimentalInteractiveRunEvents: [Object],
+12:34:27
+downloadsFolder: [Object],
+12:34:27
+experimentalModifyObstructiveThirdPartyCode: [Object],
+12:34:27
+experimentalRunAllSpecs: [Object],
+12:34:27
+injectDocumentDomain: [Object],
+12:34:27
+experimentalMemoryManagement: [Object],
+12:34:27
+experimentalSourceRewriting: [Object],
+12:34:27
+experimentalSingleTabRunMode: [Object],
+12:34:27
+experimentalOriginDependencies: [Object],
+12:34:27
+experimentalWebKitSupport: [Object],
+12:34:27
+fileServerFolder: [Object],
+12:34:27
+fixturesFolder: [Object],
+12:34:27
+experimentalFastVisibility: [Object],
+12:34:27
+excludeSpecPattern: [Object],
+12:34:27
+includeShadowDom: [Object],
+12:34:27
+modifyObstructiveCode: [Object],
+12:34:27
+justInTimeCompile: [Object],
+12:34:27
+numTestsKeptInMemory: [Object],
+12:34:27
+keystrokeDelay: [Object],
+12:34:27
+platform: [Object],
+12:34:27
+port: [Object],
+12:34:27
+projectId: [Object],
+12:34:27
+redirectionLimit: [Object],
+12:34:27
+resolvedNodePath: [Object],
+12:34:27
+reporter: [Object],
+12:34:27
+requestTimeout: [Object],
+12:34:27
+responseTimeout: [Object],
+12:34:27
+pageLoadTimeout: [Object],
+12:34:27
+resolvedNodeVersion: [Object],
+12:34:27
+reporterOptions: [Object],
+12:34:27
+retries: [Object],
+12:34:27
+screenshotsFolder: [Object],
+12:34:27
+slowTestThreshold: [Object],
+12:34:27
+screenshotOnRunFailure: [Object],
+12:34:27
+scrollBehavior: [Object],
+12:34:27
+supportFile: [Object],
+12:34:27
+supportFolder: [Object],
+12:34:27
+taskTimeout: [Object],
+12:34:27
+trashAssetsBeforeRuns: [Object],
+12:34:27
+testIsolation: [Object],
+12:34:27
+videoCompression: [Object],
+12:34:27
+viewportHeight: [Object],
+12:34:27
+videosFolder: [Object],
+12:34:27
+userAgent: [Object],
+12:34:27
+video: [Object],
+12:34:27
+watchForFileChanges: [Object],
+12:34:27
+waitForAnimations: [Object],
+12:34:27
+viewportWidth: [Object],
+12:34:27
+hosts: [Object],
+12:34:27
+specPattern: [Object],
+12:34:27
+browsers: [Object],
+12:34:27
+isInteractive: [Object]
+12:34:27
+testingType: 'e2e',
+12:34:27
+remote: {
+12:34:27
+origin: 'http://localhost:34283',
+12:34:27
+},
+12:34:27
+strategy: 'file',
+12:34:27
+fileServer: 'http://localhost:44991',
+12:34:27
+domainName: 'localhost',
+12:34:27
+browser: null,
+12:34:27
+},
+12:34:27
+props: null
+12:34:27
+specs: [],
+12:34:27
+proxyServer: 'http://localhost:34283',
+12:34:27
+proxyUrl: 'http://localhost:34283',
+12:34:27
+reporterUrl: 'http://localhost:34283/__cypress/reporter',
+12:34:27
+browserUrl: 'http://localhost:34283/__/',
+12:34:27
+state: {}
+12:34:27
+cypressVersion: '15.13.0',
+12:34:27
+specs: [
+12:34:27
+{
+12:34:27
+},
+12:34:27
+parallel: false,
+12:34:27
+specFileExtension: '.cy.js',
+12:34:27
+fileExtension: '.js',
+12:34:27
+baseName: 'basic.cy.js',
+12:34:27
+fileName: 'basic',
+12:34:27
+specType: 'integration',
+12:34:27
+relativeToCommonRoot: 'basic.cy.js',
+12:34:27
+name: 'cypress/integration/basic.cy.js',
+12:34:27
+absolute: '/tmp/zebrunner/sample-cypress/cypress/integration/basic.cy.js'
+12:34:27
+relative: 'cypress/integration/basic.cy.js',
+12:34:27
+system: { osName: 'linux', osVersion: 'Debian GNU/Linux - 13' }
+12:34:27
+],
+12:34:27
+specPattern: [ 'cypress/integration/basic.cy.js' ],
+12:34:27
+}
+12:34:27
+────────────────────────────────────────────────────────────────────────────────────────────────────
+12:34:27
+}
+12:34:27
+Running: basic.cy.js (1 of 1)
+12:34:32
+waiting for cypressConfig is defined
+12:34:32
+waiting for cypressConfig is finished
+12:34:33
+event: 'suite',
+12:34:33
+suite: {
+12:34:33
+EVENT_SUITE_BEGIN 11:34:33 AM
+12:34:33
+message {
+12:34:33
+id: 'r1',
+12:34:33
+type: 'suite',
+12:34:33
+title: '',
+12:34:33
+startTime: 1774438472583,
+12:34:33
+attributes: [],
+12:34:33
+codeRef: 'cypress/integration/basic.cy.js/'
+12:34:33
+EVENT_SUITE_BEGIN 11:34:33 AM
+12:34:33
+id: 'r2',
+12:34:33
+event: 'suite',
+12:34:33
+suite: {
+12:34:33
+title: 'Basic reporting test',
+12:34:33
+}
+12:34:33
+}
+12:34:33
+message {
+12:34:33
+startTime: 1774438472621,
+12:34:33
+attributes: [],
+12:34:33
+type: 'suite',
+12:34:33
+codeRef: 'cypress/integration/basic.cy.js/Basic reporting test',
+12:34:33
+parentId: 'r1'
+12:34:34
+ZEBRUNNER_TEST_BEGIN 03073b1a-6aa0-47ed-b287-f86bb69f2051 11:34:33 AM Google search should be passed
+12:34:34
+}
+12:34:34
+}
+12:34:43
+ZEBRUNNER_TEST_BEGIN 99a3d952-c8e8-4b32-9c72-c741788d5303 11:34:43 AM Google search should be failed
+12:35:09
+�────────────────────────────────────────────────────────────────────┐

@@ -7,8 +7,6 @@
   },
   "dependencies": {
     "@zebrunner/javascript-agent-cypress": "^1.2.0",
-    "cypress": "^15.13.0",
-    "cypress-wait-until": "^1.7.2",
-    "standard": "^16.0.4"
+    "cypress": "^15.13.0"
   }
 }
